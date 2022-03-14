@@ -8,16 +8,16 @@ Main modification:
  - Replaced image loading routines with CImg. Now PPMs are supported properly, with optional support for PNG and TIFF
  - Replaced BLAS/LAPACK with Eigen
  - Updated internal jpeg library and miniBoost
- - CMake-system now supports system boost, jpeg and other libraries if available. 
+ - CMake-system now supports system boost, jpeg and other libraries if available.
  - Replaced pthread with tinycthread to get rid of pthread.dll on Windows
 
-Authors : 
+Authors :
 [Original code author]  Yasutaka Furukawa http://www.cs.washington.edu/homes/furukawa/
 
 [Initial Cmake multiplatform port ]	Pierre moulon pmoulon[AT]gmail.com
 
 --------------------
-- Web ressources : - 
+- Web ressources : -
 --------------------
 [CMVS/PMVS] http://http://grail.cs.washington.edu/software/cmvs/
 [CMake version] http://opensourcephotogrammetry.blogspot.com/ https://github.com/pmoulon/CMVS-PMVS
